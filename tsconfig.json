@@ -14,7 +14,20 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+
+      "@MasAnimation/*": ["src/app/shared/animation/*"],
+      "@MasModules/*": ["src/app/shared/modules/*"],
+      "@MasComponents/*": ["src/app/shared/components/*"],
+      "@MasConfig/*": ["src/app/shared/constants/*"],
+      "@MasInterfaces/*": ["src/app/shared/interfaces/*"],
+      "@MasServices/*": ["src/app/shared/services/*"],
+      "@MasUtilities/*": ["src/app/shared/utilities/*"],
+      "@MasPages/*": ["src/app/pages/*"],
+      "@MasAdminPages/*": ["src/app/admin-pages/*"],
+      "@MasLayouts/*": ["src/app/layouts/*"]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
